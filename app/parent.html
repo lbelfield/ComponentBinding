@@ -1,0 +1,13 @@
+<div>Parent component</div>
+<div>
+    <button ng-click="$ctrl.showChild()">Show</button>
+    <button ng-click="$ctrl.hideChild()">Hide</button>
+</div>
+
+<!--uncomment childSavingIndicator to see string example -->
+<child-component saving-indicator="$ctrl.childSavingIndicator"></child-component>
+
+<!--uncomment childVisible to see string example -->
+<!-- uncomment visible in child.component.ts too -->
+<!--<child-component visible="$ctrl.childVisible"></child-component>-->
+
